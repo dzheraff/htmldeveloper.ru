@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Калькулятор расчета погрешности Узла учета тепловой энергии">
+  <meta name="author" content="http://htmldeveloper.ru/">
+  <title>Калькулятор погрешности УУТЭ</title>
+  <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+  <section class="calculation">
+    <div id="calc-wrap">
+      <div id="calc">
+          <input type="text" id=supplyPipe placeholder="Подача" required>
+          <input type="text" id=returnPipeline placeholder="Обратка" required>
+      </div>
+    </div>
+    <p id="fault"></p>
+    <button class="btn" onclick="func()">Вычислить</button>
+  </section>
+  <footer class="footer">
+    <p>Калькулятор расчета погрешности Узла учета тепловой энергии</p>
+    <p>Разработал: Мордасов Сергей</p>
+    <p><a href="http://htmldeveloper.ru" target="_blank">htmldeveloper.ru</a></p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
